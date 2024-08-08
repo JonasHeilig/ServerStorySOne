@@ -1,0 +1,1 @@
+This plugin is for my Minecraft server to tell the story and make that the players dosen't lose there Items instat they lose 95% there XP

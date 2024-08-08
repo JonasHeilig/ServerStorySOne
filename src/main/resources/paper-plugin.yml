@@ -2,3 +2,12 @@ name: ServerStorySOne
 version: '1.0-SNAPSHOT'
 main: de.jonasheilig.serverStorySOne.ServerStorySOne
 api-version: '1.21'
+commands:
+  story:
+    description: Sendet eine Story-Nachricht an alle Spieler.
+    usage: /<command> <nummer>
+    permission: serverstory.story
+permissions:
+  serverstory.story:
+    description: Erlaubt dem Spieler, den /story Befehl zu verwenden.
+    default: op
